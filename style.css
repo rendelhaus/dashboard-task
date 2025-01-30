@@ -125,3 +125,136 @@ body{
 .welcome-section p{
     color: var(--text-secondary);
 }
+/*-------------------------------------------*/
+
+
+.task-card{ 
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: auto;
+    /*border: 1px solid var(--border-color);*/
+    width: 100%;
+}
+.task-content {
+    background-color: var(--side-color);;
+    text-decoration: none;
+    color: var(--text-secondary);
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    /*border: 1px solid var(--border-color);*/
+    width: 100%;
+    padding: 1rem;
+}
+.task-content img{
+    width: 15px;
+    height: 15px;
+
+}
+.task-content-bold{
+    /*border: 1px solid var(--border-color);*/
+    width: 100%;
+    padding: 0rem;
+}
+.task-content-bold p{
+    /*border: 1px solid var(--border-color);*/  
+    margin: 0rem; 
+
+}
+.task-content-bold h3{
+    margin: 0rem;
+    /*border: 1px solid var(--border-color);*/   
+}
+
+
+/*-------------------------------------------*/
+.task-panel{
+    background-color: var(--side-color);
+    display: block;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+.task-panel-h2{
+    margin: 0rem 1rem 0rem 1rem;
+    /*border: 1px solid var(--border-color);*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.task-panel-h2 h2{
+    margin: 0rem;
+}
+.task-panel-h2 button{
+    border-radius: 0.5rem;
+    padding: 0.4rem 0.7rem 0.4rem 0.7rem;
+    display: inline-block;
+    font-size: 0.85rem;
+    font-weight: 400;
+    text-align: center;
+    border: none;
+    color: #ffffff; /* Rouge vif */
+    background-color: var(--primary-color);
+
+}
+.panel-content{
+    display: flex;
+    align-items: center;
+    gap: 0rem;
+    border: 1px solid var(--border-color);
+    border-radius: 0.5rem;
+    margin: 1rem;
+    padding: 0.5rem;
+}
+.panel-h1,.panel-h2{ 
+    /*border: 1px solid var(--border-color);*/
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.panel-content-bold{
+    /*border: 1px solid var(--border-color);*/
+    padding: 0.5rem;
+    width: 100%;
+
+}
+.panel-content-bold h4{
+    /*border: 1px solid var(--border-color);*/
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+.panel-content-bold p{
+    /*border: 1px solid var(--border-color);*/
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+.panel-h1 button{
+    border-radius: 0.5rem;
+    padding: 0.2rem 0.4rem 0.2rem 0.4rem;
+    display: inline-block;
+    font-size: 0.6rem;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+}
+.panel-h2 p{git
+    font-size: 0.68rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--text-secondary);
+}
+.h11{
+    color: #f86b6e; /* Rouge vif */
+    background-color: #fff1f0; /* Rouge clair en arrière-plan */
+}
+.h22{
+    color: #FF8C19; /* Rouge vif */
+    background-color: #fff6ee;
+}
+.h33{
+    color: #50ed60; /* Rouge vif */
+    background-color: #cef9d2;
+}
